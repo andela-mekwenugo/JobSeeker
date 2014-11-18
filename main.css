@@ -1,0 +1,362 @@
+#wrapper{
+	font-family: Roboto;
+	margin-right: auto;
+	margin-left: auto;
+	/*width: 100%;*/
+}
+
+
+
+.firstdiv{
+	position: relative;
+	background-size: cover;
+	background-image: url(img/classicbackground.jpg);
+	background-repeat: no-repeat;
+}
+
+.firstdiv li{
+	display: inline-block;
+	padding: 15px 15px;
+	font-weight: bold;
+	font-size: 1.2em;
+	font-family: Roboto;
+}
+
+#arabic{
+    /*padding-left: 30px;*/
+}
+
+ #topref{
+    text-align: right;
+    position: relative;
+    top: -160px;
+}
+
+#topref a:hover{
+    text-decoration: underline;
+}
+
+
+ .firstdiv a{
+ 	text-decoration: none;
+ 	color: #222;
+}
+
+
+ #post{
+ 	position: relative;
+ 	font-family: Roboto;
+ 	/*background-color: red;*/
+}
+
+ #post h1{
+ 	font-size: 2.22em;
+ 	font-weight: bold;
+ 	padding-bottom: 30px;
+ 	padding-left: 40px;
+ 	font-family: Roboto;
+}
+
+ #post p{
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-family: Roboto;
+    padding-left: 40px;
+}
+
+ #Postajob{
+ 	background-color: green;
+ 	height: 50px;
+ 	width: 250px;
+ 	color: #fff;
+ 	font-size: 1.38em;
+ 	font-weight: lighter; 
+}
+
+ #Postajob:hover{
+ 	background-color: darkgreen;
+}
+
+ #innerfirstdiv{
+ 	text-align: center;
+ 	background-color: #222;
+ 	position: relative;
+ 	height: 150px;
+    top:20px;
+ 	opacity: 0.9;
+ 	color: #fff;
+}
+
+
+ #innerfirstdiv p{
+ 	font-size: 2.22em;
+ 	color: #fff;
+ 	
+}
+
+
+ .whyhire li{
+ 	color: #fff;
+}
+
+
+ .seconddiv{
+ 	position: relative;
+ 	top:15px;
+ 	background-color: #f7f7f7;
+}
+
+ .seconddiv h2{
+ 	font-family: Roboto;
+ 	font-size: 1.94em;
+ 	text-align: center;
+ 	opacity: 0.8;
+}
+ .seconddivlist li{
+    display: inline-block;
+    padding: 10px 80px 5px 60px;
+}
+
+#thirddiv{
+	text-align: center;
+	background-image: url(img/blurred-bg.jpg);
+	position: relative;
+	height:300px;
+	top:20px;
+	padding-top: 30px;
+
+}
+
+#thirddiv a{
+	text-decoration: none;
+	color: #222;
+}
+
+#thirddiv h2{
+	font-size: 2.22em;
+	text-decoration: none;
+	padding-bottom: 40px;
+}
+
+#thirddiv p{
+	padding-bottom: 8px;
+    font-size: 1.11em;
+    font-family: Roboto;
+}
+
+#GetStarted{
+	width: 200px;
+	height: 55px;
+	font-size: 1.388em;
+	font-family: Roboto;
+	background-color: green;
+	color: #fff;
+	margin-top: 20px;
+}
+
+#GetStarted:active{
+	background-color: #fff;
+}
+
+#lastdiv{
+	position: relative;
+	bottom:-50px;
+	height: 300px;
+}
+
+#lastdiv > h1{
+	font-size: 3.33em;
+	position: relative;
+	text-align: center;
+	color: grey;
+}
+
+#lastdiv h1:hover{
+	color: #222;
+}
+
+#lastdiv > p > span{
+	padding: 0px 80px;
+	margin-bottom: 40px;
+}
+ 
+
+#lastdiv > img:active:hover{
+     border: 20px
+}
+
+#footer{
+     background-color: #222;
+     height: 4em;
+     width:100%;
+     position: absolute;
+     border-top:4px solid green;
+     margin-bottom: 0px;
+     color: #fff;
+
+}
+
+#footer > p > span{
+	padding-right: 40px;
+	padding left: 10px;
+	position: relative;
+	top: 20px;
+}
+
+
+
+@media screen and (max-width: 1260px) {
+
+
+	body{
+     max-width: 100%;
+     height: auto;
+}
+
+	.firstdiv{
+	background-size: cover;
+
+}
+    .firstdiv li{
+	font-size: 1.2em;
+	text-align: left;
+	position: relative;
+	height: 30px;
+	top: 90px;
+	text-align: left;
+}
+
+    #innerfirstdiv p{
+    font-size: 1.5em;
+}
+
+    #innerfirstdiv li{
+    font-size: 0.8em;
+    padding-top: 0px;
+}
+
+    #seconddiv h2{
+     font-size: 2.5em;
+}
+
+    #whyhire{
+    padding: 0px;
+}
+
+    #arabic{
+	width: 80px;
+}
+
+    #post{
+	font-size: 0.8em;
+}
+
+    
+
+ #lastdiv  p  img{
+    width: 45px;
+}      
+}
+
+ #lastdiv h1{
+    font-size: 2.5em;
+}
+
+
+@media screen and (max-width: 1200px){
+
+body{
+	font-size: 1em;
+	max-width: 100%;
+}
+
+.firstdiv{
+	background-size: cover;
+}
+
+.firstdiv li{
+	font-size: 1.0em;
+	text-align: left;
+	position: relative;
+	height: 30px;
+	top: 100px;
+	text-align: left;
+}
+
+ #lastdiv h1{
+    font-size: 2em;
+}
+
+#lastdiv  p  img{
+    width: 45px;
+    display: inline-block;
+}
+
+     #post h1{
+     font-size: 2.0em;
+}
+
+    #post p{
+    font-size: 1.8em;
+}
+
+    #footer{
+    font-size: 1.2em;
+}
+
+
+@media screen and (max-width: 600px){
+    
+  
+   .firstdiv{
+	background-size: cover;
+}
+
+   .firstdiv li{
+	font-size: 0.6em;
+	text-align: left;
+	position: relative;
+	height: 30px;
+	top: 120px;
+	text-align: left;
+	padding-right: 5px 5px;
+}
+
+
+    .seconddivlist li{
+    display: inline-block;
+    width: 1px;
+    height: 3px;
+}  
+
+    #lastdiv h1{
+    font-size: 1.5em;
+}
+    #lastdiv > p > span{
+    
+    max-width: 100%;
+
+}
+
+    #lastdiv  p  img{
+    width: 35px;
+    display: inline-block;
+}
+    #footer{
+    position: absolute;
+}
+    
+    #post h1{
+     font-size: 1.8em;
+}
+
+    #post p{
+    	font-size: 1.2em;
+}
+
+    #footer{
+    	font-size: 0.5em;
+}
+
+}
+
